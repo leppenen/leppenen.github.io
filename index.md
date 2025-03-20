@@ -11,12 +11,13 @@ Welcome to my page!
 ## Short bio
 
 Hometown: [Petrozavodsk, Republic of Karelia, Russia](https://www.google.com/maps/place/Petrozavodsk,+Republic+of+Karelia,+Russia/@61.8417108,34.2363804,11z/data=!4m6!3m5!1s0x46a1ec3dd7bf1fe7:0xe49db0d89a0485d4!8m2!3d61.7781617!4d34.3640395!16zL20vMDFzaG5t?hl=en&entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoASAFQAw%3D%3D)
+Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
 
 ### Education
 - **Ph. D**: Weizmann Institute of Science (2022 - Current)
 - **M.S.**: ITMO University (2019 - 2021)
 - **B.S.**: Saint Petersburg Academic University (2015 - 2019)
-- **School Education:** Lyceum No. 13, Petrozavodsk, Russia  (2004-2015)
+- **School Education:** Lyceum No. 13, Petrozavodsk (2004-2015)
 
 ### Scientific Groups 
 - [Sector of Theory of Quantum Coherent Phenomena in Solids](https://www.ioffe.ru/coherent/), Ioffe Institue, 2017 - 2022
