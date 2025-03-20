@@ -13,13 +13,13 @@ I am a PhD student in theoretical physics in the field of quantum optics.
 
 ## Research Highlights 
 
-### :microscope: Current
+### 🔬 Current
 
 - **Superradiance**
   
   *Study in different geometry*
 
-### :book: Past 
+### 📜 Past 
 
 - **Photogalvanics in topological insulators and semimetals**
 
