@@ -13,13 +13,13 @@ I am a PhD student in theoretical physics in the field of quantum optics.
 
 ## Research Highlights 
 
-### Current
+### :microscope: Current
 
 - **Superradiance**
   
   *Study in different geometry*
 
-### Past 
+### :book: Past 
 
 - **Photogalvanics in topological insulators and semimetals**
 
@@ -29,6 +29,8 @@ I am a PhD student in theoretical physics in the field of quantum optics.
 - **Optical absorption in TMDC**
 
   *We studied the influence of the nonparabolic spectrum on the exciton oscillator strength and Sommerfeld factor <span style="color: red;">todo: add code</span>*
+
+  [Exciton oscillator strength paper](https://doi.org/10.1103/PhysRevB.102.155305) [Sommerfeld factor paper](https://doi.org/10.1103/PhysRevB.103.235311)
 
 
 
