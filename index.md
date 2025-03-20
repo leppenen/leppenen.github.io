@@ -11,6 +11,22 @@ Welcome to my page!
 
 I am a PhD student in theoretical physics in the field of quantum optics. 
 
+## Research Highlights 
+
+### Current
+
+- **Superradiance**
+  *Study in different geometry*
+
+### Past 
+
+- **Photogalvanics in topological insulators and semimetals**
+  *with Prof. Leonid Golub*
+  *I studied*
+
+
+
+
 ## Contact
 
 - GitHub: [leppenen](https://github.com/leppenen)
