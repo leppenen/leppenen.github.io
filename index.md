@@ -16,13 +16,19 @@ I am a PhD student in theoretical physics in the field of quantum optics.
 ### Current
 
 - **Superradiance**
+  
   *Study in different geometry*
 
 ### Past 
 
 - **Photogalvanics in topological insulators and semimetals**
+
   *with Prof. Leonid Golub*
   *I studied*
+
+- **Optical absorption in TMDC**
+
+  *We studied the influence of the nonparabolic spectrum on the exciton oscillator strength and Sommerfeld factor <span style="color: red;">todo: add code</span>*
 
 
 
