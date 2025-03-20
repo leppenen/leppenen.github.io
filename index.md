@@ -3,15 +3,16 @@ layout: default
 title: Home
 ---
 
-# Welcome to My Page
+# Nikita Leppenen
 
-This is a simple website using the "No Style, Please!" theme.
+Welcome to my page! 
 
 ## About Me
 
-A short introduction about yourself.
+I am a PhD student in theoretical physics in the field of quantum optics. 
 
 ## Contact
 
-- GitHub: [YourGitHub](https://github.com/yourusername)
-- Email: your.email@example.com
+- GitHub: [leppenen](https://github.com/leppenen)
+- Google Scholar: [Nikita Leppenen](https://scholar.google.com/citations?user=idd_-k8AAAAJ&hl=en)
+- Email: nikita.leppenen_at_weizmann.ac.il
