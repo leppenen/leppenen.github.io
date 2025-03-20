@@ -22,7 +22,7 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
 
 ### Scientific Groups 
 - [Sector of Theory of Quantum Coherent Phenomena in Solids](https://www.ioffe.ru/coherent/), Ioffe Institue, 2017 - 2022
-- [Collective Quantum Optics](https://www.weizmann.ac.il/chembiophys/shahmoon/home), Weizmann Institute of Science, 2022 - Current
+- [Collective Quantum Optics](https://www.weizmann.ac.il/chembiophys/shahmoon/home), Weizmann Institute of Science, since 2022
 
 
 
