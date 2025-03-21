@@ -5,6 +5,8 @@ title: Home
 
 # Nikita Leppenen
 
+_Last updated: {{ site.time | date: "%B %d, %Y" }}_
+
 I am a theoretical physicist doing PhD in the field of quantum optics at the Weizmann Institute of Science, Rehovot, Israel 🇮🇱. I have a solid background in solid-state physics and a quantized knowledge of quantum computing. 
 Welcome to my page! 
 
@@ -18,7 +20,7 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
 - **Ph. D**: Weizmann Institute of Science (2022 - Current)
 - **M.S.**: ITMO University (2019 - 2021)
 - **B.S.**: Saint Petersburg Academic University (2015 - 2019)
-- **School Education:** Lyceum No. 13, Petrozavodsk (2004-2015)
+- **School Education:** Lyceum No. 13, Petrozavodsk (2004 - 2015)
 
 ### Scientific Groups 
 - [Sector of Theory of Quantum Coherent Phenomena in Solids](https://www.ioffe.ru/coherent/), Ioffe Institue, 2017 - 2022
