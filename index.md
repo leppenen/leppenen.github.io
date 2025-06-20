@@ -11,7 +11,7 @@ I am a theoretical physicist doing PhD in the field of quantum optics at the Wei
 Welcome to my page! 
 
 <p align="center">
-  <img src="assets/IMG_0705.jpg" alt="My Photo" width="250" />
+  <img src="assets/IMG_0705.jpg" alt="My Photo" width="400" />
 </p>
 
 
