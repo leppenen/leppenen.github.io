@@ -6,10 +6,17 @@ title: Reading List
 # 📚 Reading and 🎧 Listening List
 
 ## Reason to share:
-I am attaching some scientific, fiction, and non-fiction books that I use/enjoy or that have impacted my personality. I also used to run my reading club "Ded Poest" with my friends, initially aimed for modern Western literature, but then some russian authors were added. I am attaching the list of the books we read in the book club in 2022-2023 here as a reminder for myself and the motivation to rerun the reading club. Nowadays, I mostly listen to podcasts or audiobooks instead of reading, so I am attaching a list of the selected podcasts with some reviews of the selected episodes. 
+I’m sharing a selection of 📚 *scientific*, *fiction*, and *non-fiction* books that I use, enjoy, or that have meaningfully shaped my thinking and personality.
+
+For a while, I also ran a reading club with friends called **“Ded Poest”** 📖☕ — originally focused on <span style="background-color: #ffffcc;">*contemporary Western literature*</span>, but later expanded to include some <span style="background-color: #ffe0e0;">*Russian classics*</span>.  
+I’ve included the list of books we read in **2022–2023** 🗓️ as a reminder and as motivation to possibly rerun the club.
+
+These days, I mostly listen to *podcasts* and *audiobooks* instead of reading 🎧👂.  
+Below is a curated list of my favorite podcast episodes, along with some short reviews and reflections 💭✨.
 
 
-## Lex Fridman Podcast episodes 
+
+## 🎙️🤖🧠🖤 Lex Fridman Podcast episodes 
 I must say I am enjoying the Lex Fridman podcast 🎙️, which motivates me for many things (tbh for this webpage). I want to write a short review of each episode I liked. 
 
 Then I asked myself: Why do I like some episodes and some do not? Well, the answer for me is trivial- because they are *boring*—*boring people, boring questions, boring or annoying guests' voices*. I was excited to listen to a 5-hour podcast about DeepSeek, even though it took me two weeks to finish it, and I didn't understand more than half of the technical details they were talking about. It was interesting for me! But I understand it could be the most boring task to do for a lot of people that I know. So, the point I am trying to make is that *I like everything that is not boring for me* 😄
@@ -21,7 +28,7 @@ Then I asked myself: Why do I like some episodes and some do not? Well, the answ
 - *461: ThePrimeagen* Good idea: always take some time to understand the software/language you are using better, and it will save you time in the future
 
 
-## Favourite Russian classics 
+## 🪆📖💭🖋️ Favourite Russian classics 
 Reading was an important part of my education and had great value in my family. Here is my rating list TOP10 of the russian classics.
 1. *Doctor Zhivago* by Boris Pasternak
 2. *Anna Karenina* by Leo Tolstoy (I also like the movie with Keira Knightley)
