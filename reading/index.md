@@ -10,9 +10,11 @@ I am attaching some scientific, fiction, and non-fiction books that I use/enjoy 
 
 
 ## Lex Fridman Podcast episodes 
-I must say I am enjoying the Lex Fridman podcast, which motivates me for many things (tbh for this webpage). I want to write a short review of each episode I liked. Then I asked myself: Why do I like some episodes and some do not? Well, the answer for me is trivial- because they are boring—boring people, boring questions, boring or annoying guests' voices. I was excited to listen to a 5-hour podcast about DeepSeek, even though it took me two weeks to finish it, and I didn't understand more than half of the technical details they were talking about. It was interesting for me! But I understand it could be the most boring task to do for a lot of people that I know. So, the point I am trying to make is that I like everything that is not boring for me 😄
+I must say I am enjoying the Lex Fridman podcast 🎙️, which motivates me for many things (tbh for this webpage). I want to write a short review of each episode I liked. 
 
-- *419: Sam Altman* So much hyped... Does he ever know where it is all going? I've heard about AGI from this podcast for the first time, and it could surely replace me. After this podcast, I defined the problem: How to be a post-ChatGPT theoretical physicist? I have my opinion and some ideas from my colleagues and friends. I may write about it more, and I'd be happy to discuss it with whoever is reading.
+Then I asked myself: Why do I like some episodes and some do not? Well, the answer for me is trivial- because they are *boring*—*boring people, boring questions, boring or annoying guests' voices*. I was excited to listen to a 5-hour podcast about DeepSeek, even though it took me two weeks to finish it, and I didn't understand more than half of the technical details they were talking about. It was interesting for me! But I understand it could be the most boring task to do for a lot of people that I know. So, the point I am trying to make is that *I like everything that is not boring for me* 😄
+
+- *419: Sam Altman* So much hyped... Does he ever know where it is all going? I've heard about AGI from this podcast for the first time, and it could surely replace me. After this podcast, I defined the problem: **How to be a post-ChatGPT theoretical physicist?** I have my opinion and some ideas from my colleagues and friends. I may write about it more, and I'd be happy to discuss it with whoever is reading.
 - *459: DeepSeek, China, TSMC, Megacluster ...*
 - *442: Donald Trump Interview*
 - *234: Stephen Wolfram: Complexity*
@@ -32,7 +34,7 @@ Reading was an important part of my education and had great value in my family. 
 9. *Caucasus* & *The Gentleman from San Francisco* by Ivan Bunin
 10. *The Duel* by Aleksandr Kuprin
 
-My close friend Dmitro used to describe my lifestyle with the word *Pelevenshina*. I do not have any idea what it means, but I suggest you read the book *Generation P* by Victor Pelevin if you are interested (maybe even the movie has an English translation or subtitles)
+My close friend Dmitro used to describe my lifestyle with the word **Pelevenshina**. I do not have any idea what it means, but I suggest you read the book *Generation P* by Victor Pelevin if you are interested (maybe even the movie has an English translation or subtitles)
 
   
 ## Ded Poest Reading Club (Archive)
