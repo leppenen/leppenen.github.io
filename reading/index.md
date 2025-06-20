@@ -8,12 +8,10 @@ title: Reading List
 ## Reason to share:
 I’m sharing a selection of 📚 *scientific*, *fiction*, and *non-fiction* books that I use, enjoy, or that have meaningfully shaped my thinking and personality.
 
-For a while, I also ran a reading club with friends called **“Ded Poest”** 📖☕ — originally focused on <span style="background-color: #ffffcc;">*contemporary Western literature*</span>, but later expanded to include some <span style="background-color: #ffe0e0;">*Russian classics*</span>.  
-I’ve included the list of books we read in **2022–2023** 🗓️ as a reminder and as motivation to possibly rerun the club.
-
 These days, I mostly listen to *podcasts* and *audiobooks* instead of reading 🎧👂.  
 Below is a curated list of my favorite podcast episodes, along with some short reviews and reflections 💭✨.
 
+I denote the reading page on my website to Stiver -- founder of Flibusta 
 
 
 ## 🎙️🤖🧠🖤 Lex Fridman Podcast episodes 
@@ -45,6 +43,11 @@ My close friend Dmitro used to describe my lifestyle with the word **Pelevenshin
 
   
 ## Ded Poest Reading Club (Archive)
+
+For a while, I also ran a reading club with friends called **“Ded Poest”** 📖☕ — originally focused on <span style="background-color: #ffffcc;">*contemporary Western literature*</span>, but later expanded to include some <span style="background-color: #ffe0e0;">*Russian classics*</span>.  
+I’ve included the list of books we read in **2022–2023** 🗓️ as a reminder and as motivation to possibly rerun the club.
+
+
 - *The Power* by Naomi Alderman
 - *Euphoria* by Lily King
 - *The Sound and the Fury* by William Faulkner
