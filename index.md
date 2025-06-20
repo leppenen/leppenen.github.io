@@ -10,7 +10,9 @@ _Last updated: {{ site.time | date: "%B %d, %Y" }}_
 I am a theoretical physicist doing PhD in the field of quantum optics at the Weizmann Institute of Science, Rehovot, Israel 🇮🇱. I have a solid background in solid-state physics and a quantized knowledge of quantum computing. 
 Welcome to my page! 
 
-![My Photo](assets/IMG_0705.jpg)
+<p align="center">
+  <img src="assets/IMG_0705.jpg" alt="My Photo" width="200" />
+</p>
 
 
 ## Short bio
