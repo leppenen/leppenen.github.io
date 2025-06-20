@@ -32,6 +32,9 @@ Reading was an important part of my education and had great value in my family. 
 9. *Caucasus* & *The Gentleman from San Francisco* by Ivan Bunin
 10. *The Duel* by Aleksandr Kuprin
 
+My close friend Dmitro used to describe my lifestyle with the word *Pelevenshina*. I do not have any idea what it means, but I suggest you read the book *Generation P* by Victor Pelevin if you are interested (maybe even the movie has an English translation or subtitles)
+
+  
 ## Ded Poest Reading Club (Archive)
 - *The Power* by Naomi Alderman
 - *Euphoria* by Lily King
