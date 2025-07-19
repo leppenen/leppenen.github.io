@@ -6,16 +6,12 @@ title: Electrodynamics
 <script>
 window.MathJax = {
   tex: {
-    tags: 'all',
-    tagSide: 'right',
-    tagIndent: '0.8em',
-    macros: {
-      // you can define custom macros here if needed
-    }
+    tags: 'none'  // disable automatic numbering
   }
 };
 </script>
 <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 
 
 # Electrodynamics: Useful Basics 
