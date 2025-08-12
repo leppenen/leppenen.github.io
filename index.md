@@ -55,15 +55,43 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
 
   The research aimed to study the quantum backaction during measurement of the electron spin in quantum dots. I can divide this study to two areas that intersect between themselves.
   
-    <div style="display: flex; justify-content: center; gap: 1em; flex-wrap: nowrap; align-items: flex-start;">
-      <img src="assets/Zeno_PRR.png" alt="Zeno effect illustration" style="max-width: 45%; height: auto;">
-      <img src="assets/Zeno_pic_1.png" alt="Anti-Zeno effect illustration" style="max-width: 45%; height: auto;">
+    <style>
+      .twopanels{
+        display:flex;
+        justify-content:center;
+        align-items:flex-start;
+        column-gap:14px;           /* space between images */
+        flex-wrap:nowrap;          /* keep one line */
+      }
+      .twopanels img{
+        display:block;
+        width: calc(50% - 7px);    /* hard 2-up layout */
+        height:auto;
+      }
+      /* Small screens: stack nicely */
+      @media (max-width: 820px){
+        .twopanels{ flex-wrap:wrap; }
+        .twopanels img{ width:100%; }
+      }
+    
+      .figcap{
+        font-size:0.85em;          /* smaller caption */
+        line-height:1.45;
+        text-align:center;
+        max-width:900px;
+        margin: 0.6em auto 0;
+      }
+    </style>
+    
+    <div class="twopanels">
+      <img src="assets/Zeno_PRR.png"  alt="Zeno effect illustration">
+      <img src="assets/Zeno_pic_1.png" alt="Anti-Zeno effect illustration">
     </div>
     
-    <p style="font-size: 0.85em; text-align: center; max-width: 800px; margin: 0.5em auto 0;">
-      <strong>Figure Zeno.</strong> <strong>Left panel:</strong> Sketch of the system — an electron spin (dark blue arrow) localized in a quantum dot, interacting with a random magnetic field (large green arrow) produced by nuclear spins (small green arrows with dots). Due to the quantum Zeno effect (abstractly represented by Eros, but generally arising from continuous or pulsed pump–probe measurements of the electron spin), the electron’s spin precession is suppressed. This figure is a popular illustration from paper [Z2]. 
-      <strong>Right panel:</strong> Depending on the ratio between the probe power and the average amplitude of the random field, the spin relaxation can either be accelerated due to interaction with nuclei (anti-Zeno effect) or suppressed (Zeno effect). This figure is a popular illustration from paper [Z3].
+    <p class="figcap">
+      <strong>Figure Zeno.</strong> <strong>Left panel:</strong> Sketch of the system — an electron spin (dark blue arrow) localized in a quantum dot, interacting with a random magnetic field (large green arrow) produced by nuclear spins (small green arrows with dots). Due to the quantum Zeno effect (abstractly represented by Eros, but generally arising from continuous or pulsed pump–probe measurements of the electron spin), the electron’s spin precession is suppressed. This figure is a popular illustration from paper [Z2]. <strong>Right panel:</strong> Depending on the ratio between the probe power and the average amplitude of the random field, the spin relaxation can either be accelerated due to interaction with nuclei (anti-Zeno effect) or suppressed (Zeno effect). This figure is a popular illustration from paper [Z3].
     </p>
+
 
   
   #### References
