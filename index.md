@@ -57,10 +57,10 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
   
     <div style="display: flex; justify-content: center; gap: 1em; flex-wrap: wrap;">
     <figure style="margin: 0;">
-      <img src="assets/Zeno_PRR.png" alt="ZenoNS" style="max-width: 300px;">
+      <img src="assets/Zeno_PRR.png" alt="ZenoNS" style="max-width: 200px;">
     </figure>
     <figure style="margin: 0;">
-      <img src="assets/Zeno_pic_1.png" alt="ZenoPRR" style="max-width: 300px;">
+      <img src="assets/Zeno_pic_1.png" alt="ZenoPRR" style="max-width: 200px;">
     </figure>
   </div>
   
