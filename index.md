@@ -57,39 +57,55 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
   
   #### References
 <style>
-  .zrefs { font-size: 0.62em; line-height: 1.5; max-width: 800px;       /* control overall width */
-    margin-left: 2em; }
+  .zrefs {
+    font-size: 0.9em; line-height: 1.5; max-width: 600px; margin-left: 3em;
+  }
+  .zrefs .zitem { margin-bottom: 0.5em; }
   .zrefs img {
-    height: 1em;
-    width: 20;
-    vertical-align: -0.15em;
-    margin-right: 0.4em;
+    height: 1em; width: auto; vertical-align: -0.15em; margin-right: 0.4em;
   }
-  .zrefs .zitem {
-    margin-bottom: 0.5em;
-  }
+  .zrefs a { text-decoration: none; }
+  .zrefs a:hover { text-decoration: underline; }
 </style>
 
+#### References
 <div class="zrefs">
 
-<div class="zitem">[Z1] <img src="assets/aps_logo.svg" alt="PRB" />  
-N. Leppenen, D. S. Smirnov, <em>Quantum Zeno effect and quantum nondemolition spin measurement in a quantum dot–micropillar cavity in the strong coupling regime</em>, <strong>Phys. Rev. B</strong> 103, 045413 (2021). DOI: <a href="https://doi.org/10.1103/PhysRevB.103.045413">10.1103/PhysRevB.103.045413</a>
-</div>
+  <div class="zitem">[Z1] <img src="assets/aps_logo.svg" alt="PRB" />
+    Leppenen & Smirnov,
+    <a href="https://doi.org/10.1103/PhysRevB.103.045413">
+      <strong>Phys. Rev. B</strong> 103, 045413 (2021)
+    </a>
+  </div>
 
-<div class="zitem">[Z2] <img src="assets/rsc_logo.png" alt="Nanoscale" />  
-N. Leppenen, D. S. Smirnov, <em>Optical measurement of electron spins in quantum dots: quantum Zeno effects</em>, <strong>Nanoscale</strong> 14, 13284 (2022). DOI: <a href="https://doi.org/10.1039/D2NR01241C">10.1039/D2NR01241C</a>
-</div>
+  <div class="zitem">[Z2] <img src="assets/rsc_logo.png" alt="Nanoscale" />
+    Leppenen & Smirnov,
+    <a href="https://doi.org/10.1039/D2NR01241C">
+      <strong>Nanoscale</strong> 14, 13284 (2022)
+    </a>
+  </div>
 
-<div class="zitem">[Z3] <img src="assets/aps_logo.svg" alt="PRResearch" />  
-D. Nedelea <em>et al.</em>, <em>Tuning the nuclei-induced spin relaxation of localized electrons by the quantum Zeno and anti-Zeno effects</em>, <strong>Phys. Rev. Research</strong> 5, L032032 (2023). DOI: <a href="https://doi.org/10.1103/PhysRevResearch.5.L032032">10.1103/PhysRevResearch.5.L032032</a>
-</div>
+  <div class="zitem">[Z3] <img src="assets/aps_logo.svg" alt="PRResearch" />
+    Nedelea, Leppenen, Evers, Smirnov, <em>et&nbsp;al.</em>,
+    <a href="https://doi.org/10.1103/PhysRevResearch.5.L032032">
+      <strong>Phys. Rev. Research</strong> 5, L032032 (2023)
+    </a>
+  </div>
 
-<div class="zitem">[Z4] <img src="assets/Wiley_logo.svg" alt="Adv. Quantum Technol." />  
-N. Leppenen, D. S. Smirnov, <em>Birefringent Spin-Photon Interface Generates Polarization Entanglement</em>, <strong>Adv. Quantum Technol.</strong> (First published: 26 Aug 2024). DOI: <a href="https://doi.org/10.1002/qute.202400193">10.1002/qute.202400193</a>
-</div>
+  <div class="zitem">[Z4] <img src="assets/Wiley_logo.svg" alt="Adv. Quantum Technol." />
+    Leppenen & Smirnov,
+    <a href="https://doi.org/10.1002/qute.202400193">
+      <strong>Adv. Quantum Technol.</strong> (2024)
+    </a>
+  </div>
 
-<div class="zitem">[Z5] <img src="assets/aps_logo.svg" alt="PRApplied" />  
-A. Serov <em>et al.</em>, <em>Hidden anisotropy controls spin-photon entanglement in a charged quantum dot</em>, <strong>Phys. Rev. Applied</strong> 23, 044019 (2025). DOI: <a href="https://doi.org/10.1103/PhysRevApplied.23.044019">10.1103/PhysRevApplied.23.044019</a>
+  <div class="zitem">[Z5] <img src="assets/aps_logo.svg" alt="PRApplied" />
+    Serov, Galimov, Smirnov, Leppenen, <em>et&nbsp;al.</em>,
+    <a href="https://doi.org/10.1103/PhysRevApplied.23.044019">
+      <strong>Phys. Rev. Applied</strong> 23, 044019 (2025)
+    </a>
+  </div>
+
 </div>
 
 </div>
