@@ -53,6 +53,26 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
 
   *with Dr. Dmitry S. Smirnov*
 
+  The research aimed to study the quantum backaction while measuring the electron spin in quantum dots. I can devide this study to two areas that intersect between themselves.
+
+  #### References
+
+Z1. <img src="assets/aps_logo.svg" alt="PRB" width="20" style="vertical-align:middle;" />  
+   N. Leppenen, D. S. Smirnov, *Quantum Zeno effect and quantum nondemolition spin measurement in a quantum dot–micropillar cavity in the strong coupling regime*, **Phys. Rev. B** 103, 045413 (2021). DOI: [10.1103/PhysRevB.103.045413](https://doi.org/10.1103/PhysRevB.103.045413)
+
+Z2. <img src="assets/rsc_logo.png" alt="Nanoscale" width="20" style="vertical-align:middle;" />  
+   N. Leppenen, D. S. Smirnov, *Optical measurement of electron spins in quantum dots: quantum Zeno effects*, **Nanoscale** 14, 13284 (2022). DOI: [10.1039/D2NR01241C](https://doi.org/10.1039/D2NR01241C)
+
+Z3. <img src="assets/aps_logo.svg" alt="PRResearch" width="20" style="vertical-align:middle;" />  
+   D. Nedelea *et al.*, *Tuning the nuclei-induced spin relaxation of localized electrons by the quantum Zeno and anti-Zeno effects*, **Phys. Rev. Research** 5, L032032 (2023). DOI: [10.1103/PhysRevResearch.5.L032032](https://doi.org/10.1103/PhysRevResearch.5.L032032)
+
+Z4. <img src="assets/Wiley_logo.svg" alt="Adv. Quantum Technol." width="20" style="vertical-align:middle;" />  
+   N. Leppenen, D. S. Smirnov, *Birefringent Spin-Photon Interface Generates Polarization Entanglement*, **Adv. Quantum Technol.** (First published: 26 Aug 2024). DOI: [10.1002/qute.202400193](https://doi.org/10.1002/qute.202400193)
+
+Z5. <img src="assets/aps_logo.svg" alt="PRApplied" width="20" style="vertical-align:middle;" />  
+   A. Serov *et al.*, *Hidden anisotropy controls spin-photon entanglement in a charged quantum dot*, **Phys. Rev. Applied** 23, 044019 (2025). DOI: [10.1103/PhysRevApplied.23.044019](https://doi.org/10.1103/PhysRevApplied.23.044019)
+
+
 - **Optical absorption in TMDC (Master Thesis)**
 
   *with Prof. Leonid E. Golub  and Prof. Eugeniuys L. Ivchenko*
