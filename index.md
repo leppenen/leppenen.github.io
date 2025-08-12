@@ -75,10 +75,10 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
       }
     
       .figcap{
-        font-size:0.85em;          /* smaller caption */
+        font-size:0.75em;          /* smaller caption */
         line-height:1.45;
         text-align:justify;
-        max-width:900px;
+        max-width:800px;
         margin: 0.6em auto 0;
       }
     </style>
@@ -97,7 +97,7 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
   #### References
 <style>
   .zrefs {
-    font-size: 0.85em;
+    font-size: 0.75em;
     line-height: 1.5;
     max-width: 600px;
     margin-left: 3em;
