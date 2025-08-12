@@ -57,7 +57,8 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
   
   #### References
 <style>
-  .zrefs { font-size: 0.62em; line-height: 1.5; }
+  .zrefs { font-size: 0.62em; line-height: 1.5; max-width: 800px;       /* control overall width */
+    margin-left: 2em; }
   .zrefs img {
     height: 1em;
     width: 20;
