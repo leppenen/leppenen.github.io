@@ -77,7 +77,7 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
       .figcap{
         font-size:0.85em;          /* smaller caption */
         line-height:1.45;
-        text-align:center;
+        text-align:justify;
         max-width:900px;
         margin: 0.6em auto 0;
       }
