@@ -53,7 +53,21 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
 
   *with Dr. Dmitry S. Smirnov*
 
-  The research aimed to study the quantum backaction while measuring the electron spin in quantum dots. I can devide this study to two areas that intersect between themselves.
+  The research aimed to study the quantum backaction during measurement of the electron spin in quantum dots. I can divide this study to two areas that intersect between themselves.
+  
+    <div style="display: flex; justify-content: center; gap: 1em; flex-wrap: wrap;">
+    <figure style="margin: 0;">
+      <img src="assets/Zeno_PRR.png" alt="ZenoNS" style="max-width: 300px;">
+    </figure>
+    <figure style="margin: 0;">
+      <img src="assets/Zeno_pic_1.png" alt="ZenoPRR" style="max-width: 300px;">
+    </figure>
+  </div>
+  
+    <p style="text-align: center; font-size: 0.9em; max-width: 800px; margin: auto;">
+      <strong>Figure Zeno.</strong> <strong>Left panel:</strong> Sketch of the system — an electron spin (dark blue arrow) localized in a quantum dot, interacting with a random magnetic field (large green arrow) produced by nuclear spins (small green arrows with dots). Due to the quantum Zeno effect (abstractly represented by Eros, but generally arising from continuous or pulsed pump–probe measurements of the electron spin), the electron’s spin precession is suppressed. This figure is a popular illustration from paper [Z3]. 
+      <strong>Right panel:</strong> Depending on the ratio between the probe power and the average amplitude of the random field, the spin relaxation can either be accelerated due to interaction with nuclei (anti-Zeno effect) or suppressed (Zeno effect). This figure is a popular illustration from paper [Z4].
+    </p>
   
   #### References
 <style>
