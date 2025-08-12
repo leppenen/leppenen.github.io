@@ -54,23 +54,45 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
   *with Dr. Dmitry S. Smirnov*
 
   The research aimed to study the quantum backaction while measuring the electron spin in quantum dots. I can devide this study to two areas that intersect between themselves.
-
+  
   #### References
+<style>
+  .zrefs { font-size: 0.92em; line-height: 1.5; }
+  .zrefs img {
+    height: 1em;
+    width: auto;
+    vertical-align: -0.15em;
+    margin-right: 0.4em;
+  }
+  .zrefs .zitem {
+    margin-bottom: 0.5em;
+  }
+</style>
 
-Z1. <img src="assets/aps_logo.svg" alt="PRB" width="20" style="vertical-align:middle;" />  
-   N. Leppenen, D. S. Smirnov, *Quantum Zeno effect and quantum nondemolition spin measurement in a quantum dot–micropillar cavity in the strong coupling regime*, **Phys. Rev. B** 103, 045413 (2021). DOI: [10.1103/PhysRevB.103.045413](https://doi.org/10.1103/PhysRevB.103.045413)
+<div class="zrefs">
 
-Z2. <img src="assets/rsc_logo.png" alt="Nanoscale" width="20" style="vertical-align:middle;" />  
-   N. Leppenen, D. S. Smirnov, *Optical measurement of electron spins in quantum dots: quantum Zeno effects*, **Nanoscale** 14, 13284 (2022). DOI: [10.1039/D2NR01241C](https://doi.org/10.1039/D2NR01241C)
+<div class="zitem">[Z1] <img src="assets/aps_logo.svg" alt="PRB" />  
+N. Leppenen, D. S. Smirnov, <em>Quantum Zeno effect and quantum nondemolition spin measurement in a quantum dot–micropillar cavity in the strong coupling regime</em>, <strong>Phys. Rev. B</strong> 103, 045413 (2021). DOI: <a href="https://doi.org/10.1103/PhysRevB.103.045413">10.1103/PhysRevB.103.045413</a>
+</div>
 
-Z3. <img src="assets/aps_logo.svg" alt="PRResearch" width="20" style="vertical-align:middle;" />  
-   D. Nedelea *et al.*, *Tuning the nuclei-induced spin relaxation of localized electrons by the quantum Zeno and anti-Zeno effects*, **Phys. Rev. Research** 5, L032032 (2023). DOI: [10.1103/PhysRevResearch.5.L032032](https://doi.org/10.1103/PhysRevResearch.5.L032032)
+<div class="zitem">[Z2] <img src="assets/rsc_logo.png" alt="Nanoscale" />  
+N. Leppenen, D. S. Smirnov, <em>Optical measurement of electron spins in quantum dots: quantum Zeno effects</em>, <strong>Nanoscale</strong> 14, 13284 (2022). DOI: <a href="https://doi.org/10.1039/D2NR01241C">10.1039/D2NR01241C</a>
+</div>
 
-Z4. <img src="assets/Wiley_logo.svg" alt="Adv. Quantum Technol." width="20" style="vertical-align:middle;" />  
-   N. Leppenen, D. S. Smirnov, *Birefringent Spin-Photon Interface Generates Polarization Entanglement*, **Adv. Quantum Technol.** (First published: 26 Aug 2024). DOI: [10.1002/qute.202400193](https://doi.org/10.1002/qute.202400193)
+<div class="zitem">[Z3] <img src="assets/aps_logo.svg" alt="PRResearch" />  
+D. Nedelea <em>et al.</em>, <em>Tuning the nuclei-induced spin relaxation of localized electrons by the quantum Zeno and anti-Zeno effects</em>, <strong>Phys. Rev. Research</strong> 5, L032032 (2023). DOI: <a href="https://doi.org/10.1103/PhysRevResearch.5.L032032">10.1103/PhysRevResearch.5.L032032</a>
+</div>
 
-Z5. <img src="assets/aps_logo.svg" alt="PRApplied" width="20" style="vertical-align:middle;" />  
-   A. Serov *et al.*, *Hidden anisotropy controls spin-photon entanglement in a charged quantum dot*, **Phys. Rev. Applied** 23, 044019 (2025). DOI: [10.1103/PhysRevApplied.23.044019](https://doi.org/10.1103/PhysRevApplied.23.044019)
+<div class="zitem">[Z4] <img src="assets/Wiley_logo.svg" alt="Adv. Quantum Technol." />  
+N. Leppenen, D. S. Smirnov, <em>Birefringent Spin-Photon Interface Generates Polarization Entanglement</em>, <strong>Adv. Quantum Technol.</strong> (First published: 26 Aug 2024). DOI: <a href="https://doi.org/10.1002/qute.202400193">10.1002/qute.202400193</a>
+</div>
+
+<div class="zitem">[Z5] <img src="assets/aps_logo.svg" alt="PRApplied" />  
+A. Serov <em>et al.</em>, <em>Hidden anisotropy controls spin-photon entanglement in a charged quantum dot</em>, <strong>Phys. Rev. Applied</strong> 23, 044019 (2025). DOI: <a href="https://doi.org/10.1103/PhysRevApplied.23.044019">10.1103/PhysRevApplied.23.044019</a>
+</div>
+
+</div>
+
 
 
 - **Optical absorption in TMDC (Master Thesis)**
