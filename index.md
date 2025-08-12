@@ -58,17 +58,34 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
   #### References
 <style>
   .zrefs {
-    font-size: 0.9em; line-height: 1.5; max-width: 600px; margin-left: 3em;
+    font-size: 0.9em;
+    line-height: 1.5;
+    max-width: 600px;
+    margin-left: 3em;
   }
-  .zrefs .zitem { margin-bottom: 0.5em; }
+  .zitem {
+    display: flex;
+    align-items: center; /* vertically align text and logo */
+    gap: 0.5em; /* space between text and logo */
+    margin-bottom: 0.5em;
+    flex-wrap: nowrap; /* prevent breaking */
+  }
+  .zitem span {
+    white-space: nowrap;
+  }
   .zrefs img {
-    height: 1em; width: auto; vertical-align: -0.15em; margin-right: 0.4em;
+    height: 1em;
+    width: auto;
   }
-  .zrefs a { text-decoration: none; }
-  .zrefs a:hover { text-decoration: underline; }
+  .zrefs a {
+    text-decoration: none;
+  }
+  .zrefs a:hover {
+    text-decoration: underline;
+  }
 </style>
 
-#### References
+
 <div class="zrefs">
 
   <div class="zitem">[Z1] <img src="assets/aps_logo.svg" alt="PRB" />
@@ -106,7 +123,6 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
     </a>
   </div>
 
-</div>
 
 </div>
 
