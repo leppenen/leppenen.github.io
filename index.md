@@ -128,7 +128,7 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
 <div class="zrefs">
 
   <div class="zitem">[Z1] <img src="assets/aps_logo.svg" alt="PRB" />
-    Leppenen & Smirnov,
+    Leppenen, Lanco, Smirnov,
     <a href="https://doi.org/10.1103/PhysRevB.103.045413">
       <strong>Phys. Rev. B</strong> 103, 045413 (2021)
     </a>
@@ -142,7 +142,7 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
   </div>
 
   <div class="zitem">[Z3] <img src="assets/aps_logo.svg" alt="PRResearch" />
-    Nedelea, Leppenen, Evers, Smirnov, <em>et&nbsp;al.</em>,
+    Nedelea, Leppenen, Evers, Smirnov, Bayer, Greilich,
     <a href="https://doi.org/10.1103/PhysRevResearch.5.L032032">
       <strong>Phys. Rev. Research</strong> 5, L032032 (2023)
     </a>
@@ -156,7 +156,7 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
   </div>
 
   <div class="zitem">[Z5] <img src="assets/aps_logo.svg" alt="PRApplied" />
-    Serov, Galimov, Smirnov, Leppenen, <em>et&nbsp;al.</em>,
+    Serov, Galimov, Smirnov, Rakhlin, Leppenen, <em>et&nbsp;al.</em>,
     <a href="https://doi.org/10.1103/PhysRevApplied.23.044019">
       <strong>Phys. Rev. Applied</strong> 23, 044019 (2025)
     </a>
