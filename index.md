@@ -173,7 +173,26 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
   
   We studied the influence of the nonparabolic spectrum on the exciton oscillator strength and Sommerfeld factor <span style="color: red;">todo: add code</span>
 
-  [Exciton oscillator strength paper](https://doi.org/10.1103/PhysRevB.102.155305) [Sommerfeld factor paper](https://doi.org/10.1103/PhysRevB.103.235311)
+  <div class="zrefs">
+  
+    <div class="zitem">[TMDC 1] <img src="assets/aps_logo.svg" alt="PRB" />
+      Leppenen, Golub & Ivchenko,
+      <a href="https://doi.org/10.1103/PhysRevB.102.155305">
+        <strong>Phys. Rev. B</strong> 102, 155305 (2020)
+      </a>
+    </div>
+  
+    <div class="zitem">[TMDC 2] <img src="assets/aps_logo.svg" alt="PRB" />
+      Leppenen, Golub & Ivchenko,
+      <a href="https://doi.org/10.1103/PhysRevB.103.235311">
+        <strong>Phys. Rev. B</strong> 103, 235311 (2021)
+      </a>
+    </div>
+  
+  </div>
+
+
+
 
 
 
