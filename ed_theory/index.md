@@ -54,7 +54,7 @@ Substitution gives
 
 $$ (-q^2+k^2)\,G_{\boldsymbol q}=-1 \quad\Rightarrow\quad G_{\boldsymbol q}=\frac{1}{q^2-k^2-i\varepsilon}, \qquad \varepsilon\to0^+. \tag{H3} \label{eq:Gq1} $$
 
-Choosing the outgoing-wave (radiation) condition \(k\to k+i0^+\) and integrating over angles,
+Choosing the outgoing-wave (radiation) condition $$ k\to k+i0^+ $$ and integrating over angles,
 
 $$ G_0(\boldsymbol r)=\lim_{\varepsilon\to0^+}\frac{2}{(2\pi)^2 r}\! \int_{0}^{\infty}\!\mathrm{d}q\; q\,\frac{\sin(qr)}{q^2-k^2-i\varepsilon}. \tag{H4} \label{eq:GrInt1} $$
 
@@ -63,11 +63,11 @@ Using the Sokhotski–Plemelj formula
 $$ \lim_{\varepsilon\to0^+}\frac{1}{q^2-k^2-i\varepsilon} =\mathcal{P}\!\left(\frac{1}{q^2-k^2}\right)+i\pi\,\delta(q^2-k^2) $$
 $$ =\mathcal{P}\!\left(\frac{1}{q^2-k^2}\right)+\frac{i\pi}{2k}\,\delta(q-k), \tag{H5} $$
 
-Eq.~\eqref{eq:GrInt1} evaluates to
+Eq.\eqref{eq:GrInt1} evaluates to
 
 $$ G_0(\boldsymbol r)=\frac{2}{(2\pi)^2 r}\!\left[\mathcal{P}\!\int_{0}^{\infty}\!\frac{q\sin(qr)}{q^2-k^2}\,\mathrm{d}q+\frac{i\pi}{2}\sin(kr)\right]=\frac{e^{ikr}}{4\pi r}. \tag{H6} $$
 
-> With the opposite sign in the imaginary part, \(k\to k-i0^+\), one obtains the incoming spherical wave \(e^{-ikr}/(4\pi r)\).
+> With the opposite sign in the imaginary part, $$ k\to k-i0^+ $$, one obtains the incoming spherical wave $$ e^{-ikr}/(4\pi r) $$.
 
 ---
 
