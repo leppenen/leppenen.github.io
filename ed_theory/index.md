@@ -60,7 +60,8 @@ $$ G_0(\boldsymbol r)=\lim_{\varepsilon\to0^+}\frac{2}{(2\pi)^2 r}\! \int_{0}^{\
 
 Using the Sokhotski–Plemelj formula
 
-$$ \lim_{\varepsilon\to0^+}\frac{1}{q^2-k^2-i\varepsilon} =\mathcal{P}\!\left(\frac{1}{q^2-k^2}\right)+i\pi\,\delta(q^2-k^2) =\mathcal{P}\!\left(\frac{1}{q^2-k^2}\right)+\frac{i\pi}{2k}\,\delta(q-k), \tag{H5} $$
+$$ \lim_{\varepsilon\to0^+}\frac{1}{q^2-k^2-i\varepsilon} =\mathcal{P}\!\left(\frac{1}{q^2-k^2}\right)+i\pi\,\delta(q^2-k^2) $$
+$$ =\mathcal{P}\!\left(\frac{1}{q^2-k^2}\right)+\frac{i\pi}{2k}\,\delta(q-k), \tag{H5} $$
 
 Eq.~\eqref{eq:GrInt1} evaluates to
 
