@@ -73,27 +73,18 @@ $$ G_0(\boldsymbol r)=\frac{2}{(2\pi)^2 r}\!\left[\mathcal{P}\!\int_{0}^{\infty}
 
 ### Green’s function of the 2D scalar field
 
-The 2D Helmholtz Green’s function \(G_{\mathrm{2D}}(\boldsymbol\rho)\) satisfies
-$$
-\bigl(\Delta + k^2\bigr)\,G_{\mathrm{2D}}(\boldsymbol\rho)=-\delta(\boldsymbol\rho), 
-\qquad \boldsymbol\rho=(x,y). \tag{H7}
-$$
+The 2D Helmholtz Green’s function $$ G_{\mathrm{2D}}(\boldsymbol\rho) $$ satisfies
+
+
+$$ \bigl(\Delta + k^2\bigr)\,G_{\mathrm{2D}}(\boldsymbol\rho)=-\delta(\boldsymbol\rho),  \qquad \boldsymbol\rho=(x,y). \tag{H7} $$
 
 Fourier transform in 2D and switch to polar coordinates in \(\boldsymbol q\)-space:
-$$
-G_{\mathrm{2D}}(\boldsymbol\rho)=\frac{1}{(2\pi)^2}\!\int \mathrm{d}^2\boldsymbol q\;
-G_{\boldsymbol q}\,e^{i\boldsymbol q\cdot\boldsymbol\rho}
-=\frac{1}{2\pi}\lim_{\varepsilon\to0^+}
-\int_{0}^{\infty}\!\frac{q\,\mathrm{d}q}{q^2-k^2-i\varepsilon}\,J_0(q\rho), \tag{H8}
-$$
-where \(\rho=|\boldsymbol\rho|\) and we used \(\int_0^{2\pi}\!e^{iq\rho\cos(\phi-\theta)}\,\mathrm{d}\phi=2\pi J_0(q\rho)\).
-Applying Sokhotski–Plemelj as in \eqref{eq:GrInt}–\eqref{eq:H5} and the integral identity
-\[
-\mathcal{P}\!\int_{0}^{\infty}\!\frac{q\,J_0(q\rho)}{q^2-k^2}\,\mathrm{d}q
-=-\frac{\pi}{2}\,Y_0(k\rho),
-\]
+$$ G_{\mathrm{2D}}(\boldsymbol\rho)=\frac{1}{(2\pi)^2}\!\int \mathrm{d}^2\boldsymbol q\; G_{\boldsymbol q}\,e^{i\boldsymbol q\cdot\boldsymbol\rho} $$
+$$=\frac{1}{2\pi}\lim_{\varepsilon\to0^+} \int_{0}^{\infty}\!\frac{q\,\mathrm{d}q}{q^2-k^2-i\varepsilon}\,J_0(q\rho), \tag{H8} $$
+
+
+where $$ \rho=|\boldsymbol\rho| $$ and we used $$ \int_0^{2\pi}\!e^{iq\rho\cos(\phi-\theta)}\,\mathrm{d}\phi=2\pi J_0(q\rho) $$.
+Applying Sokhotski–Plemelj as in 3D case and the integral identity that could be calculated in Wolfram Mathematica
+$$ \mathcal{P}\!\int_{0}^{\infty}\!\frac{q\,J_0(q\rho)}{q^2-k^2}\,\mathrm{d}q =-\frac{\pi}{2}\,Y_0(k\rho),$$
 We obtain the standard result
-$$
-G_{\mathrm{2D}}(\boldsymbol\rho)=\frac{i}{4}\,H_0^{(1)}(k\rho)
-=\frac{1}{4}\!\left[iJ_0(k\rho)-Y_0(k\rho)\right]. \tag{H9}
-$$
+$$ G_{\mathrm{2D}}(\boldsymbol\rho)=\frac{i}{4}\,H_0^{(1)}(k\rho) =\frac{1}{4}\!\left[iJ_0(k\rho)-Y_0(k\rho)\right]. \tag{H9} $$
