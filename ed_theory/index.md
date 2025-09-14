@@ -82,7 +82,6 @@ Fourier transform in 2D and switch to polar coordinates in $$ \boldsymbol q $$ -
 $$ G_{\mathrm{2D}}(\boldsymbol\rho)=\frac{1}{(2\pi)^2}\!\int \mathrm{d}^2\boldsymbol q\; G_{\boldsymbol q}\,e^{i\boldsymbol q\cdot\boldsymbol\rho} $$
 $$=\frac{1}{2\pi}\lim_{\varepsilon\to0^+} \int_{0}^{\infty}\!\frac{q\,\mathrm{d}q}{q^2-k^2-i\varepsilon}\,J_0(q\rho), \tag{H8} $$
 
-
 where $$ \rho=|\boldsymbol\rho| $$ and we used $$ \int_0^{2\pi}\!e^{iq\rho\cos(\phi-\theta)}\,\mathrm{d}\phi=2\pi J_0(q\rho) $$.
 
 Applying Sokhotski–Plemelj as in 3D case and the integral identity that could be calculated in Wolfram Mathematica
