@@ -13,7 +13,7 @@ window.MathJax = {
 <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <style>
 .main {
-  max-width: 1100px;  /* default is ~650px */
+  max-width: 1300px;  /* default is ~650px */
 }
 </style>
 
