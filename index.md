@@ -43,6 +43,24 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
   
   *with Dr. Ephraim Shahmoon*
 
+- **Subradiance in driven systems**
+
+  *with Dr. Alexander N. Poddubny*
+
+  In the driven-dissipative systems we defined so called *subradiant correlations*. We found that they are robust to the disorder [Sub1]. 
+
+<div class="zrefs">
+
+  <div class="zitem">[Sub1] <img src="assets/aps_logo.svg" alt="PRA" />
+    Leppenen & Poddubny,
+    <a href="https://doi.org/10.1103/czf3-74sf">
+      <strong>Phys. Rev. A</strong> 113, 023709 (2026)
+    </a>
+  </div>
+
+</div>
+
+
 ### 📜 Past 
 
 - **Photogalvanics in topological insulators and semimetals (Bachelor Thesis + PhD beginning)**
