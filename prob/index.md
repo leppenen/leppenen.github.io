@@ -28,12 +28,10 @@ window.MathJax = {
   border-bottom: 1px solid #e2e2e2;
 }
 
-/* Keep long display equations within the content width. */
-mjx-container[display="true"] {
-  display: block;
-  max-width: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
+.fact-block p {
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
 }
 </style>
 
@@ -64,7 +62,7 @@ In formula form, the Markov property is
 
 $$
 \begin{aligned}
-P(X_{n+1}=x_{n+1} \mid X_n=x_n, X_{n-1}=x_{n-1}, \ldots, X_0=x_0)
+P(X_{n+1}=x_{n+1} \mid X_0=x_0, \ldots, X_n=x_n) \\
 &= P(X_{n+1}=x_{n+1} \mid X_n=x_n).
 \end{aligned}
 $$
