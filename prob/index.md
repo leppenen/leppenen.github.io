@@ -27,6 +27,14 @@ window.MathJax = {
   padding-bottom: 1.1em;
   border-bottom: 1px solid #e2e2e2;
 }
+
+/* Keep long display equations within the content width. */
+mjx-container[display="true"] {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
 </style>
 
 # Probability: Interesting Facts
@@ -37,7 +45,7 @@ Keep each fact short and intuitive.
 
 ---
 
-<div class="fact-block">
+<div class="fact-block" markdown="1">
 <div class="fact-date">2026-04-26</div>
 
 ## How Markov Chains Started
@@ -55,8 +63,10 @@ This became the core idea of a Markov chain: memory is limited to the present st
 In formula form, the Markov property is
 
 $$
+\begin{aligned}
 P(X_{n+1}=x_{n+1} \mid X_n=x_n, X_{n-1}=x_{n-1}, \ldots, X_0=x_0)
-= P(X_{n+1}=x_{n+1} \mid X_n=x_n).
+&= P(X_{n+1}=x_{n+1} \mid X_n=x_n).
+\end{aligned}
 $$
 
 Why it matters: this simple rule is now used in physics, queueing theory, search ranking, genetics, and machine learning.
@@ -65,7 +75,7 @@ Historical note: Markov published this line of work in the 1900s, and the *Eugen
 
 </div>
 
-<div class="fact-block">
+<div class="fact-block" markdown="1">
 <div class="fact-date">YYYY-MM-DD</div>
 
 ## Title of your next fact
