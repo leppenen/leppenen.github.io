@@ -37,9 +37,7 @@ window.MathJax = {
 
 # Probability: Interesting Facts
 
-Add new facts at the top.
-Date format: `YYYY-MM-DD`.
-Keep each fact short and intuitive.
+I have started to dive deep into probability theory. Sometimes I find something very interesting there that drives me crazy. To avoid annoying my girlfriend with it, I decided to keep these facts as a blog page on my personal website.
 
 ---
 
@@ -48,7 +46,7 @@ Keep each fact short and intuitive.
 
 ## How Markov Chains Started
 
-At the beginning of the 20th century, Andrey Markov wanted to challenge the idea that probability only works for independent events.
+At the beginning of the 20th century, Andrey Markov wanted to challenge the idea that the law of big numbers only works for independent events.
 
 To make the point convincing, he analyzed language data from Alexander Pushkin's poem *Eugene Onegin*. He took a long sequence of letters and labeled each one as either a vowel or a consonant.
 
@@ -70,6 +68,8 @@ $$
 Why it matters: this simple rule is now used in physics, queueing theory, search ranking, genetics, and machine learning.
 
 Historical note: Markov published this line of work in the 1900s, and the *Eugene Onegin* example became a classic story in probability courses because it turns abstract dependence into something concrete and intuitive.
+
+I learned this story from an amazing Veritasium video: [Markov Chains](https://www.youtube.com/watch?v=KZeIEiBrT_w).
 
 </div>
 
