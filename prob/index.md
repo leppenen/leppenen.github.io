@@ -46,7 +46,7 @@ I have started to dive deep into probability theory. Sometimes I find something 
 
 ## Number of fixed points in a random permuttation 
 
-Lets consider all of the permuttations $S_n$ of $n$ elements. We define $X(\sigma)$ to be the number of the fixed points in a random permuttation $\sigma$ i.e. $\sigma(i) = i$. We want to find the expectation value $E[X(\sigma)]$.
+Lets consider all of the permuttations $S_n$ of $n$ elements. We define $$X(\sigma)$$ to be the number of the fixed points in a random permuttation $$\sigma$$ i.e. $$\sigma(i) = i$$. We want to find the expectation value $$E[X(\sigma)]$$.
 
 Easy solution:
 
@@ -54,7 +54,7 @@ $$
 E[X(\sigma)] = \frac{1}{n!} \sum_{\sigma} X(\sigma)
 $$
 
-We introduce the indicator function $$X(sigma) = \sum_{i=1}^n I_{\sigma(i) = i}$$. Then 
+We introduce the indicator function $$X(\sigma) = \sum_{i=1}^n I_{\sigma(i) = i}$$. Then 
 
 $$
 \sum_{\sigma} X(\sigma) = \sum_{\sigma}\sum_{i=1}^n I_{\sigma(i) = i} = \sum_{i=1}^n\sum_{\sigma}I_{\sigma(i) = i} 
@@ -73,14 +73,18 @@ $$
 E[X(\sigma)] = \sum_{k = 0}^n k P(X = k)
 $$
 
-and $$P(X = k) = C_{n}^k D_{n-k}/n!$$ where $$D_{n}$$ - is the derangements (gives the number of permutations of n objects that leave no object fixed). It is called Subfactorial in Wolfram Mathematica. Wolfram code is pretty straightforward:3
+and $$P(X = k) = C_{n}^k D_{n-k}/n!$$ where $$D_{n}$$ - is the derangements (gives the number of permutations of n objects that leave no object fixed). It is called Subfactorial in Wolfram Mathematica. Wolfram code is pretty straightforward:
 
 ```mathematica
 n = 200;
 Sum[k*Binomial[n, k]*Subfactorial[n - k]/Factorial[n], {k, 0, n}]
 ```
 
-This computes the expectation value $$E[X(\sigma)]$$ for $$n = 200$$ elements as an example and gives 1 for any n.  
+This computes the expectation value $$E[X(\sigma)]$$ for $$n = 200$$ elements as an example and gives 1 for any \(n\).  
+
+The nice thing about this answer is that it is independent of \(n\). Imagine the following: it's January, −25°C in Saint Petersburg, and you go out to drink and dance on a Saturday night at Mishka Bar. People put on their jackets, and because many are quite drunk, which jacket each person takes is essentially random. How many people will end up with their own jackets? On average, one — independent of the total number of people.
+
+Why? The probability that a random jacket is yours in \(1/n\) and there are \(n\) people, so the expecation value is 1.  
 
 </div>
 <div class="fact-block" markdown="1">
