@@ -54,18 +54,17 @@ $$
 E[X(\sigma)] = \frac{1}{n!} \sum_{\sigma} X(\sigma)
 $$
 
-We introduce the indicator function $X(sigma) = \sum_{i=1}^n I_{\sigma(i) = i}$. Then 
+We introduce the indicator function $$X(sigma) = \sum_{i=1}^n I_{\sigma(i) = i}$$. Then 
 
 $$
 \sum_{\sigma} X(\sigma) = \sum_{\sigma}\sum_{i=1}^n I_{\sigma(i) = i} = \sum_{i=1}^n\sum_{\sigma}I_{\sigma(i) = i} 
 $$
-It is easy since for the fixed $i$ $\sum_{\sigma}I_{\sigma(i) = i} = (n-1)!$, so we get 
 
+It is easy since for the fixed $$i$$ $$\sum_{\sigma}I_{\sigma(i) = i} = (n-1)!$$, so we get 
 
 $$
 \sum_{\sigma} X(\sigma) = n (n-1)! = n!
 $$
-
 and $E[X(\sigma)] = 1$.
 
 This is a very nice solution using the indicator function. There is also a straitforward one: 
@@ -74,14 +73,14 @@ $$
 E[X(\sigma)] = \sum_{k = 0}^n k P(X = k)
 $$
 
-and $P(X = k) = C_{n}^k D_{n-k}/n!$ where $D_{n}$ - is the derangements (gives the number of permutations of n objects that leave no object fixed). It is called Subfactorial in Wolfram Mathematica. Wolfram code is pretty straightforward:
+and $$P(X = k) = C_{n}^k D_{n-k}/n!$$ where $$D_{n}$$ - is the derangements (gives the number of permutations of n objects that leave no object fixed). It is called Subfactorial in Wolfram Mathematica. Wolfram code is pretty straightforward:3
 
 ```mathematica
 n = 200;
 Sum[k*Binomial[n, k]*Subfactorial[n - k]/Factorial[n], {k, 0, n}]
 ```
 
-This computes the expectation value $E[X(\sigma)]$ for $n = 200$ elements as an example and gives 1 for any n.  
+This computes the expectation value $$E[X(\sigma)]$$ for $$n = 200$$ elements as an example and gives 1 for any n.  
 
 </div>
 <div class="fact-block" markdown="1">
