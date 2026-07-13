@@ -7,8 +7,17 @@ title: Home
 
 _Last updated: {{ site.time | date: "%B %d, %Y" }}_
 
+<style>
+  p,
+  li {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+  }
+</style>
+
 <div style="display:flex; gap:20px; align-items:flex-start;">
-  <div style="flex:0 0 70%;">
+  <div style="flex:0 0 70%; text-align: justify; text-justify: inter-word; hyphens: auto;">
 I am a theoretical physicist doing PhD in the field of quantum optics at the Weizmann Institute of Science, Rehovot, Israel 🇮🇱. I have a solid background in solid-state physics and a quantized knowledge of quantum computing. 
 
 Welcome to my page!
