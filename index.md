@@ -55,12 +55,12 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
 
 
   <div class="twopanels" style="flex-direction: column; align-items: center;">
-    <img src="assets/spectra_omega.pdf"  alt="Sub Fig 1">
-    <img src="assets/spectra_screen.pdf" alt="Sub Fig 2">
+    <img src="assets/spectra_omega.svg"  alt="Sub Fig 1">
+    <img src="assets/spectra_screen.svg" alt="Sub Fig 2">
   </div>
   
   <p class="figcap">
-    <strong>Figure Subradiance Symmetry Analysis.</strong> <strong>Figure 6 [Sub1]:</strong>  The most interesting part for me is that the number of such states and Liouvillian spectra in general could be analyzed using symmetry analysis like topological insulators (See my past Topological Insulator Project)
+    <strong>Figure Subradiance Symmetry Analysis.</strong> <strong>Figure 6 from [Sub1]:</strong>  The most interesting part for me is that the number of such states and Liouvillian spectra in general could be analyzed using symmetry analysis like topological insulators (See my past Topological Insulator Project)
   </p>
  
 <div class="zrefs">
