@@ -51,14 +51,31 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
 
   *with Dr. Alexander N. Poddubny*
 
-  In the driven-dissipative systems we defined so called *subradiant correlations*. We found that they are robust to the disorder [Sub1]. 
+  In the driven-dissipative systems, like laser-driven cavities, waveguides, free space ensembles and etc, we defined so called *subradiant correlations*. These are Liouvillian eigenstates with real part close to zero. We found that they are robust to the disorder [Sub1] and that they can not oscillate in time [Sub2].
 
+
+  <div class="twopanels" style="flex-direction: column; align-items: center;">
+    <img src="assets/spectra_omega.pdf"  alt="Sub Fig 1">
+    <img src="assets/spectra_screen.pdf" alt="Sub Fig 2">
+  </div>
+  
+  <p class="figcap">
+    <strong>Figure Subradiance Symmetry Analysis.</strong> <strong>Figure 6 [Sub1]:</strong>  The most interesting part for me is that the number of such states and Liouvillian spectra in general could be analyzed using symmetry analysis like topological insulators (See my past Topological Insulator Project)
+  </p>
+ 
 <div class="zrefs">
 
   <div class="zitem">[Sub1] <img src="assets/aps_logo.svg" alt="PRA" />
     Leppenen & Poddubny,
     <a href="https://doi.org/10.1103/czf3-74sf">
       <strong>Phys. Rev. A</strong> 113, 023709 (2026)
+    </a>
+  </div>
+
+  <div class="zitem">[Sub2] <img src="assets/aps_logo.svg" alt="PRA" />
+    Shi, Leppenen, Tessler, Poddubny,
+    <a href="https://doi.org/10.1103/hqfr-s7bx">
+      <strong>Phys. Rev. A</strong> 113, 063702 (2026)
     </a>
   </div>
 
