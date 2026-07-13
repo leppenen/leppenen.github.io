@@ -7,12 +7,16 @@ title: Home
 
 _Last updated: {{ site.time | date: "%B %d, %Y" }}_
 
+<div style="display:flex; gap:20px; align-items:flex-start;">
+  <div style="flex:0 0 70%;">
 I am a theoretical physicist doing PhD in the field of quantum optics at the Weizmann Institute of Science, Rehovot, Israel 🇮🇱. I have a solid background in solid-state physics and a quantized knowledge of quantum computing. 
-Welcome to my page! 
 
-<p align="center">
-  <img src="assets/IMG_0705.jpg" alt="My Photo" width="400" />
-</p>
+Welcome to my page!
+  </div>
+  <div style="flex:0 0 30%; text-align:center;">
+    <img src="assets/photo_oackley.jpg" alt="My Photo" style="max-width:100%; height:auto; border-radius:4px;" />
+  </div>
+</div>
 
 
 ## Short bio
