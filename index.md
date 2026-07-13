@@ -60,7 +60,7 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
 
   *with Dr. Alexander N. Poddubny*
 
-  In the driven-dissipative systems, like laser-driven cavities, waveguides, free space ensembles and etc, we defined so called *subradiant correlations*. These are Liouvillian eigenstates with real part close to zero. We found that they are robust to the disorder [Sub1] and that they can not oscillate in time [Sub2].
+  In the driven-dissipative systems, like laser-driven cavities, waveguides, and free-space atomic ensembles, we defined so called *subradiant correlations*. These are Liouvillian eigenstates whose real parts close to zero. We found that they are robust against disorder [Sub1] and cannot oscillate in time [Sub2].
 
 
   <div class="twopanels" style="flex-direction: column; align-items: center;">
@@ -69,7 +69,7 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
   </div>
   
   <p class="figcap">
-    <strong>Figure Subradiance Symmetry Analysis.</strong> <strong>Figure 6 from [Sub1]:</strong>  The most interesting part for me is that the number of such states and Liouvillian spectra in general could be analyzed using symmetry analysis like topological insulators (See my past Topological Insulator Project)
+    <strong>Figure Subradiance Symmetry Analysis.</strong> <strong>Figure 6 from [Sub1]:</strong>  The most interesting part for me is that both the number of subradiant modes and the structure of the Liouvillian spectrum may be characterized through symmetry-based analysis, in close analogy with the classification of topological insulators. This connection builds on the framework developed in my previous Topological Insulator Project.
   </p>
  
 <div class="zrefs">
@@ -101,8 +101,9 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
 
   *with Dr. Dmitry S. Smirnov*
 
-  The research aimed to study the quantum backaction during measurement of the electron spin in quantum dots. I can divide this study to two areas that intersect between themselves.
-  
+  This research aimed to investigate quantum backaction during the measurement of an electron spin in quantum dots. We developed a theoretical description of the electron-spin dynamics based on the Liouvillian master equation and complementary kinetic equations. Within this framework, we defined the measurement strength in terms of experimentally relevant parameters of the system.
+
+
     <style>
       .twopanels{
         display:flex;
@@ -137,7 +138,7 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
     </div>
     
     <p class="figcap">
-      <strong>Figure Zeno.</strong> <strong>Left panel:</strong> Sketch of the system — an electron spin (dark blue arrow) localized in a quantum dot, interacting with a random magnetic field (large green arrow) produced by nuclear spins (small green arrows with dots). Due to the quantum Zeno effect (abstractly represented by Eros, but generally arising from continuous or pulsed pump–probe measurements of the electron spin), the electron’s spin precession is suppressed. This figure is a popular illustration from paper [Z2]. <strong>Right panel:</strong> Depending on the ratio between the probe power and the average amplitude of the random field, the spin relaxation can either be accelerated due to interaction with nuclei (anti-Zeno effect) or suppressed (Zeno effect). This figure is a popular illustration from paper [Z3].
+      <strong>Figure Zeno.</strong> <strong>Left panel:</strong> Sketch of the system — an electron spin (dark blue arrow) localized in a quantum dot, interacting with a random magnetic field (large green arrow) produced by nuclear spins (small green arrows with dots). Due to the quantum Zeno effect (abstractly represented by Eros, but generally arising from continuous or pulsed pump–probe measurements of the electron spin), the electron’s spin precession is suppressed. This figure is a popular illustration from paper [Z3]. <strong>Right panel:</strong> Depending on the ratio between the probe power and the average amplitude of the random field, the spin relaxation can either be accelerated due to interaction with nuclei (anti-Zeno effect) or suppressed (Zeno effect). This figure is a popular illustration from paper [Z2].
     </p>
 
 
