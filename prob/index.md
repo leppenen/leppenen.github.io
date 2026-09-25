@@ -38,11 +38,21 @@ window.MathJax = {
 # Probability: Interesting Facts
 
 I have started to dive deep into probability theory. Sometimes I find something very interesting there that drives me crazy. To avoid annoying my girlfriend with it, I decided to keep these facts as a blog page on my personal website.
-
 ---
 
 <div class="fact-block" markdown="1">
-<div class="fact-date">2026-05-18</div>
+<div class="fact-date">2026-09-25</div>
+
+## That drunk man that took your place 
+
+There is a plane with 100 seats. Each passager has a ticket. The first passager who enters the plane is drunk and he seats on a random seat. You are the latest passager. What is the probability you will sit at your ticket place. 
+
+
+
+</div>
+<div class="fact-block" markdown="1">
+<div class="fact-date">2026-04-26</div>
+
 
 ## Number of fixed points in a random permuttation 
 
