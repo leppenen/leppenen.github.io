@@ -56,11 +56,11 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
   
   *with Dr. Ephraim Shahmoon*
 
-We are developing a systematic approach to collective radiation in various systems and geometries. The step-by-step solution of the general problem includes the purely collective-radiation limit, in which Efi and Ori identified the existence of the Coherently Radiating Spin States. I have analyzed the case with one collective and one individual decay channel [SR1]. We found a first-order dissipative phase transition, corresponding to a transition between states with different angular momentum. This quantum analysis supports the mean-field prediction of steady-state bistability. We are now working of the generalization of the theory for free space driven ensembles of atoms. 
+  We are developing a systematic approach to collective radiation in various systems and geometries. The step-by-step solution of the general problem includes the purely collective-radiation limit, in which Efi and Ori identified the existence of the Coherently Radiating Spin States. I have analyzed the case with one collective and one individual decay channel [SR1]. We found a first-order dissipative phase transition, corresponding to a transition between states with different angular momentum. This quantum analysis supports the mean-field prediction of steady-state bistability. We are now working of the generalization of the theory for free space driven ensembles of atoms. 
 
 <div class="zrefs">
 
-  <div class="zitem">[Sub1] <img src="assets/aps_logo.svg" alt="PRA" />
+  <div class="zitem">[SR1] <img src="assets/aps_logo.svg" alt="PRA" />
     Leppenen & Shahmoon,
     <a href="https://doi.org/10.1103/cy7b-hsl3">
       <strong>Phys. Rev. A</strong> 114, 013720 (2026)
@@ -68,6 +68,32 @@ We are developing a systematic approach to collective radiation in various syste
   </div>
 
 </div>
+
+- **Advanced Quantum Optics with Machine Learning and AI**
+
+  *with different collaborators and by myself*
+
+  I am intrested in application of numerical tools (including ML and with the help of AI) or NISQ devices to the problems of quantum optics. This also gives understanding and leads to exploration of quantum info itself. With couple of collegues (also PhD students) we are working on Matrix Product States and quantum magic. I have also done project in generation of the quantum trajectories using Reccurental Neural Networks [Repo1]. See also my talk on prospects of the simulation of the collective radiotion using NISQ devices [Talk1].
+
+<div class="zrefs">
+
+  <div class="zitem">[Repo1] <img src="assets/github_logo.png" alt="GitHub" />
+    Leppenen,
+    <a href="https://github.com/leppenen/project_ML4sci">
+      <strong>Quantum Trajectories with RNN</strong>
+    </a>
+  </div>  
+
+  <div class="zitem">[Talk1] <img src="assets/yt_icon_red_digital.png" alt="YouTube" />
+    Leppenen,
+    <a href="https://www.youtube.com/watch?v=m10mpFmPQUk">
+      <strong>Talk on NISQ devices and collective radiation</strong>
+    </a>
+  </div>
+
+</div>
+
+
 
 - **Subradiance in driven systems**
 
