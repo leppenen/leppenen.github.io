@@ -56,6 +56,19 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
   
   *with Dr. Ephraim Shahmoon*
 
+We are developing a systematic approach to collective radiation in various systems and geometries. The step-by-step solution of the general problem includes the purely collective-radiation limit, in which Efi and Ori identified the existence of the Coherently Radiating Spin States. I have analyzed the case with one collective and one individual decay channel [SR1]. We found a first-order dissipative phase transition, corresponding to a transition between states with different angular momentum. This quantum analysis supports the mean-field prediction of steady-state bistability. We are now working of the generalization of the theory for free space driven ensembles of atoms. 
+
+<div class="zrefs">
+
+  <div class="zitem">[Sub1] <img src="assets/aps_logo.svg" alt="PRA" />
+    Leppenen & Shahmoon,
+    <a href="https://doi.org/10.1103/cy7b-hsl3">
+      <strong>Phys. Rev. A</strong> 114, 013720 (2026)
+    </a>
+  </div>
+
+</div>
+
 - **Subradiance in driven systems**
 
   *with Dr. Alexander N. Poddubny*
