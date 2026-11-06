@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Reading List
+title: Content
 ---
+
+[← Back to home](/)
 
 # 📚 Reading and 🎧 Listening List
 

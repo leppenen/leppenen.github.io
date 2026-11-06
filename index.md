@@ -5,6 +5,8 @@ title: Home
 
 # Nikita Leppenen
 
+[Content](/reading/) · [Probability](/prob/) · [Electrodynamics](/ed_theory/)
+
 _Last updated: {{ site.time | date: "%B %d, %Y" }}_
 
 <style>

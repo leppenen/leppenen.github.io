@@ -3,6 +3,8 @@ layout: default
 title: Probability Facts
 ---
 
+[← Back to home](/)
+
 <script>
 window.MathJax = {
   tex: {

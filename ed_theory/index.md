@@ -3,6 +3,8 @@ layout: default
 title: Electrodynamics
 ---
 
+[← Back to home](/)
+
 <script>
 window.MathJax = {
   tex: {
