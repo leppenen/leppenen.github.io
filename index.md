@@ -5,8 +5,6 @@ title: Home
 
 # Nikita Leppenen
 
-[Content](/reading/) · [Probability](/prob/) · [Electrodynamics](/ed_theory/)
-
 _Last updated: {{ site.time | date: "%B %d, %Y" }}_
 
 <style>
@@ -15,6 +13,18 @@ _Last updated: {{ site.time | date: "%B %d, %Y" }}_
     text-align: justify;
     text-justify: inter-word;
     hyphens: auto;
+  }
+
+  .expandable-section {
+    margin: 1.5em 0;
+  }
+
+  .expandable-section > summary {
+    cursor: pointer;
+  }
+
+  .expandable-section > summary h2 {
+    display: inline;
   }
 </style>
 
@@ -30,7 +40,8 @@ Welcome to my page!
 </div>
 
 
-## Short bio
+<details class="expandable-section" markdown="1">
+<summary><h2>Short bio</h2></summary>
 
 Hometown: [Petrozavodsk, Republic of Karelia, Russia](https://www.google.com/maps/place/Petrozavodsk,+Republic+of+Karelia,+Russia/@61.8417108,34.2363804,11z/data=!4m6!3m5!1s0x46a1ec3dd7bf1fe7:0xe49db0d89a0485d4!8m2!3d61.7781617!4d34.3640395!16zL20vMDFzaG5t?hl=en&entry=ttu&g_ep=EgoyMDI1MDMxOC4wIKXMDSoASAFQAw%3D%3D) <img src="assets/Karelia.png" alt="Karelia" width="20" style="vertical-align: text-bottom;" />
 
@@ -50,7 +61,10 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
 
 
 
-## Research Highlights 
+</details>
+
+<details class="expandable-section" markdown="1">
+<summary><h2>Research Highlights</h2></summary>
 
 ### 🔬 Current
 
@@ -286,6 +300,14 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
 
 
 
+
+</details>
+
+## Table of Content
+
+- [Probability](/prob/)
+- [Electrodynamics](/ed_theory/)
+- [Books/Podcasts/Movies](/reading/)
 
 ## Contact
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Content
+title: Books/Podcasts/Movies
 ---
 
 [← Back to home](/)
