@@ -329,6 +329,7 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
   <li><a href="{{ '/conferences/' | relative_url }}">Conferences</a></li>
   <li><a href="{{ '/prob/' | relative_url }}">Probability</a></li>
   <li><a href="{{ '/ed_theory/' | relative_url }}">Electrodynamics</a></li>
+  <li><a href="{{ '/q_opt/' | relative_url }}">Quantum Optics</a></li>
   <li><a href="{{ '/reading/' | relative_url }}">Books/Podcasts/Movies</a></li>
 </ul>
 
