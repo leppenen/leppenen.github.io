@@ -1,0 +1,106 @@
+# One entry per paper. Charts and author counts are calculated automatically.
+# Use consistent journal and field names so their chart categories stay grouped.
+
+- title: Quantum correlated steady states under competing collective and individual decay
+  authors: [N. Leppenen, E. Shahmoon]
+  journal: Phys. Rev. A
+  citation: "114, 013720"
+  year: 2026
+  doi: 10.1103/cy7b-hsl3
+  field: Collective quantum optics
+
+- title: No oscillating subradiant correlations in a strongly driven quantum emitter array
+  authors: [J. Shi, N. Leppenen, R. Tessler, A. N. Poddubny]
+  journal: Phys. Rev. A
+  citation: "113, 063702"
+  year: 2026
+  doi: 10.1103/hqfr-s7bx
+  field: Collective quantum optics
+
+- title: Persistent subradiant correlations in a disordered ensemble of collectively driven quantum emitters
+  authors: [N. Leppenen, A. N. Poddubny]
+  journal: Phys. Rev. A
+  citation: "113, 023709"
+  year: 2026
+  doi: 10.1103/czf3-74sf
+  field: Collective quantum optics
+
+- title: Birefringent Spin-Photon Interface Generates Polarization Entanglement
+  authors: [N. Leppenen, D. S. Smirnov]
+  journal: Adv. Quantum Technol.
+  citation: "2400193"
+  year: 2024
+  doi: 10.1002/qute.202400193
+  field: Quantum-dot spins and spin–photon interfaces
+
+- title: Tuning the nuclei-induced spin relaxation of localized electrons by the quantum Zeno and anti-Zeno effects
+  authors: [V. Nedelea, N. V. Leppenen, E. Evers, D. S. Smirnov, M. Bayer, A. Greilich]
+  journal: Phys. Rev. Research
+  citation: "5, L032032"
+  year: 2023
+  doi: 10.1103/PhysRevResearch.5.L032032
+  field: Quantum-dot spins and spin–photon interfaces
+
+- title: Linear photogalvanic effect in surface states of topological insulators
+  authors: [N. V. Leppenen, L. E. Golub]
+  journal: Phys. Rev. B
+  citation: "107, L161403"
+  year: 2023
+  doi: 10.1103/PhysRevB.107.L161403
+  field: Photogalvanics in topological materials
+
+- title: "Optical measurement of electron spins in quantum dots: Quantum Zeno effects"
+  authors: [N. V. Leppenen, D. S. Smirnov]
+  journal: Nanoscale
+  citation: "14, 13284"
+  year: 2022
+  doi: 10.1039/D2NR01241C
+  field: Quantum-dot spins and spin–photon interfaces
+
+- title: Nonlinear optical absorption and photocurrents in topological insulators
+  authors: [N. V. Leppenen, L. E. Golub]
+  journal: Phys. Rev. B
+  citation: "105, 115306"
+  year: 2022
+  doi: 10.1103/PhysRevB.105.115306
+  field: Photogalvanics in topological materials
+
+- title: Sommerfeld enhancement factor in two-dimensional Dirac materials
+  authors: [N. V. Leppenen, L. E. Golub, E. L. Ivchenko]
+  journal: Phys. Rev. B
+  citation: "103, 235311"
+  year: 2021
+  doi: 10.1103/PhysRevB.103.235311
+  field: Excitons in 2D materials
+
+- title: Quantum Zeno effect and quantum nondemolition spin measurement in a quantum dot–micropillar cavity in the strong coupling regime
+  authors: [N. V. Leppenen, L. Lanco, D. S. Smirnov]
+  journal: Phys. Rev. B
+  citation: "103, 045413"
+  year: 2021
+  doi: 10.1103/PhysRevB.103.045413
+  field: Quantum-dot spins and spin–photon interfaces
+
+- title: Exciton oscillator strength in two-dimensional Dirac materials
+  authors: [N. V. Leppenen, L. E. Golub, E. L. Ivchenko]
+  journal: Phys. Rev. B
+  citation: "102, 155305"
+  year: 2020
+  doi: 10.1103/PhysRevB.102.155305
+  field: Excitons in 2D materials
+
+- title: Nonlinear Absorption and Photocurrent in Weyl Semimetals
+  authors: [N. V. Leppenen, E. L. Ivchenko, L. E. Golub]
+  journal: Phys. Status Solidi B
+  citation: "256, 1900305"
+  year: 2019
+  doi: 10.1002/pssb.201900305
+  field: Photogalvanics in topological materials
+
+- title: Circular Photocurrent in Weyl Semimetals with Mirror Symmetry
+  authors: [N. V. Leppenen, E. L. Ivchenko, L. E. Golub]
+  journal: J. Exp. Theor. Phys.
+  citation: "129, 139–146"
+  year: 2019
+  doi: 10.1134/S1063776119070070
+  field: Photogalvanics in topological materials

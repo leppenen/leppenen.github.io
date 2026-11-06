@@ -1,0 +1,111 @@
+---
+layout: default
+title: Publications
+---
+
+<p><a href="{{ '/' | relative_url }}">← Back to home</a></p>
+
+<h1>📄🔬 Publications</h1>
+<p>{{ site.data.publications.size }} papers, grouped by year.</p>
+<p>Each paper counts once in each chart. Research fields follow the themes in my Research Highlights, with one primary field assigned to each paper.</p>
+
+<div class="publication-charts" hidden>
+  <section aria-labelledby="journal-heading">
+    <h2 id="journal-heading">📚 Journals</h2>
+    <div class="publication-pie" id="journal-pie" aria-hidden="true"></div>
+    <ul id="journal-legend" class="publication-legend"></ul>
+  </section>
+  <section aria-labelledby="authors-heading">
+    <h2 id="authors-heading">👥 Authors per paper</h2>
+    <div class="publication-pie" id="authors-pie" aria-hidden="true"></div>
+    <ul id="authors-legend" class="publication-legend"></ul>
+  </section>
+  <section aria-labelledby="field-heading">
+    <h2 id="field-heading">🔬 Research fields</h2>
+    <div class="publication-pie" id="field-pie" aria-hidden="true"></div>
+    <ul id="field-legend" class="publication-legend"></ul>
+  </section>
+</div>
+<noscript><p>Enable JavaScript to view the charts. The full publication list is below.</p></noscript>
+
+{% assign years = site.data.publications | group_by: 'year' | sort: 'name' | reverse %}
+{% for year in years %}
+<h2>{{ year.name }}</h2>
+<ul class="publication-list">
+  {% for paper in year.items %}
+  <li data-journal="{{ paper.journal | escape }}" data-authors="{{ paper.authors.size }}" data-field="{{ paper.field | escape }}">
+    <strong>{{ paper.title | escape }}</strong><br>
+    {% for author in paper.authors %}{% if author contains 'Leppenen' %}<strong>{{ author | escape }}</strong>{% else %}{{ author | escape }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}<br>
+    <a href="https://doi.org/{{ paper.doi | escape }}">{{ paper.journal | escape }} {{ paper.citation | escape }} ({{ paper.year }})</a><br>
+    <small>{{ paper.field | escape }}</small>
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}
+
+<style>
+  .publication-charts:not([hidden]) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+    gap: 2em;
+    margin: 2em 0;
+  }
+  .publication-pie {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 1em auto;
+    border: 1px solid currentColor;
+    print-color-adjust: exact;
+  }
+  .publication-legend { list-style: none; padding: 0; }
+  .publication-legend li { margin: 0.5em 0; }
+  .publication-swatch {
+    display: inline-block;
+    width: 0.9em;
+    height: 0.9em;
+    margin-right: 0.5em;
+    border: 1px solid currentColor;
+    vertical-align: middle;
+  }
+  .publication-list li { margin-bottom: 1.5em; }
+</style>
+<script>
+  (() => {
+    const entries = [...document.querySelectorAll('.publication-list li')];
+    const colors = ['#3973ac', '#df9038', '#5a9864', '#ad6b9b', '#95812b', '#75828e', '#c45b58'];
+    function drawChart(field) {
+      const counts = new Map();
+      entries.forEach(entry => {
+        const label = entry.dataset[field];
+        counts.set(label, (counts.get(label) || 0) + 1);
+      });
+      const labels = [...counts.keys()];
+      if (field === 'authors') labels.sort((a, b) => Number(a) - Number(b));
+      else labels.sort((a, b) => counts.get(b) - counts.get(a) || a.localeCompare(b));
+      const legend = document.getElementById(`${field}-legend`);
+      let start = 0;
+      const slices = labels.map((label, index) => {
+        const count = counts.get(label);
+        const percent = count / entries.length * 100;
+        const color = colors[index % colors.length];
+        const end = start + percent;
+        const slice = `${color} ${start}% ${end}%`;
+        start = end;
+        const item = document.createElement('li');
+        const swatch = document.createElement('span');
+        swatch.className = 'publication-swatch';
+        swatch.style.backgroundColor = color;
+        swatch.setAttribute('aria-hidden', 'true');
+        const name = field === 'authors' ? `${label} ${Number(label) === 1 ? 'author' : 'authors'}` : label;
+        item.append(swatch, `${name}: ${count} (${percent.toFixed(1)}%)`);
+        legend.append(item);
+        return slice;
+      });
+      document.getElementById(`${field}-pie`).style.background = slices.length
+        ? `conic-gradient(${slices.join(', ')})` : 'transparent';
+    }
+    ['journal', 'authors', 'field'].forEach(drawChart);
+    document.querySelector('.publication-charts').hidden = false;
+  })();
+</script>
