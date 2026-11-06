@@ -26,6 +26,25 @@ _Last updated: {{ site.time | date: "%B %d, %Y" }}_
   .expandable-section > summary h2 {
     display: inline;
   }
+
+  .table-of-content {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.75em 1.5em;
+    padding: 0;
+    list-style: none;
+  }
+
+  .table-of-content li {
+    text-align: left;
+    overflow-wrap: anywhere;
+  }
+
+  @media (max-width: 600px) {
+    .table-of-content {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>
 
 <div style="display:flex; gap:20px; align-items:flex-start;">
@@ -305,9 +324,12 @@ Now: [Rehovot, Israel](https://www.google.com/maps/place/Rehovot/)
 
 ## Table of Content
 
-- [Probability](/prob/)
-- [Electrodynamics](/ed_theory/)
-- [Books/Podcasts/Movies](/reading/)
+<ul class="table-of-content">
+  <li><a href="{{ '/conferences/' | relative_url }}">Conferences</a></li>
+  <li><a href="{{ '/prob/' | relative_url }}">Probability</a></li>
+  <li><a href="{{ '/ed_theory/' | relative_url }}">Electrodynamics</a></li>
+  <li><a href="{{ '/reading/' | relative_url }}">Books/Podcasts/Movies</a></li>
+</ul>
 
 ## Contact
 

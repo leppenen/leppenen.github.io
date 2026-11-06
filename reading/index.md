@@ -44,6 +44,21 @@ Reading was an important part of my education and had great value in my family. 
 My close friend Dmitro used to describe my lifestyle with the word **Pelevenshina**. I do not have any idea what it means, but I suggest you read the book *Generation P* by Victor Pelevin if you are interested (maybe even the movie has an English translation or subtitles)
 
   
+## 🌌📚🎬 My Top List of Fiction Universes
+
+1. Noon Universe
+2. The Matrix
+3. Harry Potter
+4. Blade Runner
+5. Dune
+6. The Witcher
+7. Avengers
+8. Star Wars or The Andromeda Nebula
+9. Metro 2033
+10. Night Watch
+11. Game of Thrones
+12. Lord of the Rings
+
 ## Ded Poest Reading Club (Archive)
 
 For a while, I also ran a reading club with friends called **“Ded Poest”** 📖☕ — originally focused on <span style="background-color: #ffffcc;">*contemporary Western literature*</span>, but later expanded to include some <span style="background-color: #ffe0e0;">*Russian classics*</span>.  

@@ -1,0 +1,103 @@
+---
+layout: default
+title: Conferences
+---
+
+<p><a href="{{ '/' | relative_url }}">← Back to home</a></p>
+
+<h1>🎤🌍 Conferences</h1>
+<p>{{ site.data.conferences.size }} presentations at conferences, meetings, and schools.</p>
+<p>Each presentation counts once. Regions refer to the host city, including for online events.</p>
+
+<div class="conference-charts" hidden>
+  <section aria-labelledby="type-heading">
+    <h2 id="type-heading">🎤 Oral / Poster</h2>
+    <div class="conference-pie" id="type-pie" aria-hidden="true"></div>
+    <ul id="type-legend" class="conference-legend"></ul>
+  </section>
+  <section aria-labelledby="region-heading">
+    <h2 id="region-heading">🌍 Host region</h2>
+    <div class="conference-pie" id="region-pie" aria-hidden="true"></div>
+    <ul id="region-legend" class="conference-legend"></ul>
+  </section>
+</div>
+<noscript><p>Enable JavaScript to view the charts. The full presentation list is below.</p></noscript>
+
+{% assign years = site.data.conferences | group_by: 'year' | sort: 'name' | reverse %}
+{% for year in years %}
+<h2>{{ year.name }}</h2>
+<ul class="conference-list">
+  {% for conference in year.items %}
+  <li data-type="{{ conference.type | escape }}" data-region="{{ conference.region | escape }}">
+    <strong>{{ conference.name | escape }}</strong><br>
+    {{ conference.location | escape }}{% if conference.online %} · Online{% endif %}<br>
+    <em>{{ conference.title | escape }}</em> · {{ conference.type | capitalize | escape }}
+  </li>
+  {% endfor %}
+</ul>
+{% endfor %}
+
+<style>
+  .conference-charts:not([hidden]) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
+    gap: 2em;
+    margin: 2em 0;
+  }
+  .conference-pie {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 1em auto;
+    border: 1px solid currentColor;
+    print-color-adjust: exact;
+  }
+  .conference-legend { list-style: none; padding: 0; }
+  .conference-legend li { margin: 0.5em 0; }
+  .conference-swatch {
+    display: inline-block;
+    width: 0.9em;
+    height: 0.9em;
+    margin-right: 0.5em;
+    border: 1px solid currentColor;
+    vertical-align: middle;
+  }
+  .conference-list li { margin-bottom: 1.5em; }
+</style>
+<script>
+  (() => {
+    const entries = [...document.querySelectorAll('.conference-list li')];
+    const colors = ['#3973ac', '#df9038', '#5a9864', '#ad6b9b', '#95812b', '#75828e', '#c45b58'];
+    function drawChart(field, preferredOrder) {
+      const counts = new Map();
+      entries.forEach(entry => {
+        const label = entry.dataset[field];
+        counts.set(label, (counts.get(label) || 0) + 1);
+      });
+      const labels = [...new Set([...preferredOrder, ...counts.keys()])].filter(label => counts.has(label));
+      const legend = document.getElementById(`${field}-legend`);
+      let start = 0;
+      const slices = labels.map((label, index) => {
+        const count = counts.get(label);
+        const percent = count / entries.length * 100;
+        const color = colors[index % colors.length];
+        const end = start + percent;
+        const slice = `${color} ${start}% ${end}%`;
+        start = end;
+        const item = document.createElement('li');
+        const swatch = document.createElement('span');
+        swatch.className = 'conference-swatch';
+        swatch.style.backgroundColor = color;
+        swatch.setAttribute('aria-hidden', 'true');
+        item.append(swatch, `${label.charAt(0).toUpperCase() + label.slice(1)}: ${count} (${percent.toFixed(1)}%)`);
+        legend.append(item);
+        return slice;
+      });
+      document.getElementById(`${field}-pie`).style.background = slices.length
+        ? `conic-gradient(${slices.join(', ')})` : 'transparent';
+    }
+    drawChart('type', ['oral', 'poster']);
+    drawChart('region', ['Europe', 'Middle East', 'Asia', 'North America', 'South America', 'Africa', 'Oceania', 'Antarctica']);
+    document.querySelector('.conference-charts').hidden = false;
+  })();
+</script>

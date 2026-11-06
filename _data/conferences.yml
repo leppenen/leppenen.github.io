@@ -1,0 +1,165 @@
+# Add one entry per presentation. The list and charts update automatically.
+# type: oral or poster
+# region: host city's region, including for online events
+# online: true if attended online; omit otherwise
+
+- name: Bridging Quantum Realms
+  location: Crete, Greece
+  year: 2026
+  title: "Predicting Open Quantum System Trajectories: TrajGRUGrid"
+  type: poster
+  region: Europe
+
+- name: Conference on Quantum Information and Quantum Control XI
+  location: Toronto, Canada
+  year: 2026
+  title: "Quantum correlated steady states: collective vs. local dissipation"
+  type: poster
+  region: North America
+
+- name: The 71st Annual Meeting of the Israel Physical Society
+  location: Hebrew University, Jerusalem, Israel
+  year: 2026
+  title: Critical metrology in collective-spin systems using coherently radiating spin states
+  type: oral
+  region: Middle East
+
+- name: QERNEL General Meeting
+  location: Tel Aviv University, Israel
+  year: 2026
+  title: "Making sense of collective radiation: classical and quantum simulation approaches"
+  type: oral
+  region: Middle East
+
+- name: The 70th Annual Meeting of the Israel Physical Society
+  location: Technion, Haifa, Israel
+  year: 2025
+  title: Emergence of the collective mode of light-matter coupling in free space
+  type: oral
+  region: Middle East
+
+- name: QERNEL Launch Event
+  location: Bar-Ilan University, Ramat Gan, Israel
+  year: 2025
+  title: Interplay between collective and local dissipation in quantum open systems
+  type: oral
+  region: Middle East
+
+- name: Institute d’Optique & Weizmann Institute Group Visit
+  location: Palaiseau, Paris, France
+  year: 2025
+  title: Quantum bistability at the interplay between collective and individual decay
+  type: poster
+  region: Europe
+
+- name: The 69th Annual Meeting of the Israel Physical Society
+  location: Tel Aviv, Israel
+  year: 2024
+  title: Quantum bistability at the interplay between collective and individual decay
+  type: poster
+  region: Middle East
+
+- name: Quantum and Collective Phenomena in Light-Matter Interactions
+  location: Crete, Greece
+  year: 2023
+  title: Bistability beyond the mean field for collectively radiating system
+  type: poster
+  region: Europe
+
+- name: XV Russian Conference of Semiconductors Physics
+  location: Nizhniy Novgorod, Russia
+  year: 2022
+  title: Nonlinear optical absorption and photocurrent in the surface states of topological insulators
+  type: oral
+  region: Europe
+  online: true
+
+- name: Yenisey Photonics
+  location: Krasnoyarsk, Russia
+  year: 2022
+  title: Quantum Zeno effect under optical measurement of the electron spin
+  type: oral
+  region: Asia
+
+- name: The Winter School on Theoretical Physics "Kourovka"
+  location: Ekaterinburg, Russia
+  year: 2022
+  title: Nonlinear photocurrents in topological insulators
+  type: oral
+  region: Asia
+
+- name: Theory of the Solid State Meeting
+  location: Saint Petersburg, Russia
+  year: 2021
+  title: Nonlinear absorption and photocurrent in two-dimensional topological insulators
+  type: poster
+  region: Europe
+
+- name: International Conference on Optics of Excitons in Confined Systems
+  location: Dortmund, Germany
+  year: 2021
+  title: Exciton oscillator strength and Sommerfeld factor in two-dimensional Dirac materials
+  type: poster
+  region: Europe
+  online: true
+
+- name: International Conference on Optics of Excitons in Confined Systems
+  location: Dortmund, Germany
+  year: 2021
+  title: Quantum Zeno and anti-Zeno effects under optical measurement of electron spins in quantum dots
+  type: oral
+  region: Europe
+  online: true
+
+- name: Metanano Summer School on Photonics of 2D Materials
+  location: Saint Petersburg, Russia
+  year: 2021
+  title: Nonlinear absorption and photocurrent in topological insulators
+  type: poster
+  region: Europe
+  online: true
+
+- name: SchooL on Advanced Light-Emitting and Optical Materials SLALOM
+  location: Vladivostok, Russia
+  year: 2021
+  title: Quantum Zeno and anti-Zeno effects under optical measurement of electron spins
+  type: poster
+  region: Asia
+
+- name: Toulouse TMD Meeting
+  location: Toulouse, France
+  year: 2021
+  title: Sommerfeld enhancement factor in two-dimensional Dirac materials
+  type: oral
+  region: Europe
+  online: true
+
+- name: 11th International Conference on Quantum Dots
+  location: Munich, Germany
+  year: 2020
+  title: Quantum Zeno effect in a QD-micropillar cavity in the strong coupling regime
+  type: poster
+  region: Europe
+  online: true
+
+- name: Junior TMDC Meeting
+  location: Toulouse, France
+  year: 2020
+  title: Exciton oscillator strength in two-dimensional Dirac materials
+  type: oral
+  region: Europe
+  online: true
+
+- name: International Conference on Optics of Excitons in Confined Systems
+  location: Saint Petersburg, Russia
+  year: 2019
+  title: Sommerfeld factor in semiconductors with nonparabolic band structure
+  type: poster
+  region: Europe
+
+- name: Theory of the Solid State Meeting
+  location: Saint Petersburg, Russia
+  year: 2019
+  title: Circular photocurrent in Weyl semimetals with mirror symmetry
+  type: poster
+  region: Europe
